@@ -1,0 +1,119 @@
+      
+      #search_div {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 170px;
+        /* border: red solid; */
+        gap: 20px;
+        height: 40px !important;
+        width: fit-content !important;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      #search_div > div {
+        height: 45px;
+        /* border: red solid; */
+      }
+
+      input {
+        display: flex;
+        width: 600px;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        background: transparent;
+        backdrop-filter: blur(1rem);
+        color: white;
+        /* border-bottom: 2px red solid; */
+      }
+
+      .button-64 {
+        background-image: linear-gradient(
+          144deg,
+          #af40ff,
+          #5b42f3 50%,
+          #00ddeb
+        );
+        border: 0;
+        border-radius: 8px;
+        box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+        box-sizing: border-box;
+        color: #ffffff;
+        display: flex;
+        height: 50px;
+        align-items: center;
+        font-family: Phantomsans, sans-serif;
+        font-size: 20px;
+        justify-content: center;
+        line-height: 1em;
+        max-width: 100%;
+        min-width: 140px;
+        padding: 3px;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        cursor: pointer;
+      }
+
+      .button-64:active,
+      .button-64:hover {
+        outline: 0;
+      }
+
+      .button-64 span {
+        background-color: rgb(5, 6, 45);
+        padding: 16px 24px;
+        border-radius: 6px;
+        width: 100%;
+        height: 100%;
+        transition: 300ms;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .button-64:hover span {
+        background: none;
+      }
+
+      @media (min-width: 768px) {
+        .button-64 {
+          font-size: 24px;
+          min-width: 196px;
+        }
+      }
+
+      #search_suggestion {
+        position: relative;
+        max-height: 200px;
+        height: fit-content;
+        width: 100%;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: none;
+        flex-direction: column;
+        padding: 0 30px;
+        /* border: red solid; */
+        /* background-color: transparent; */
+        backdrop-filter: blur(1rem);
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        overflow: scroll;
+      }
+
+      #search_suggestion > p {
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+      }

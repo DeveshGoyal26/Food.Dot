@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Signika Negative", sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: "Midnight Sans",sans-serif !important; */
+  }
+
+  body {
+    margin: 0;
+  }
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 99%;
+    border-radius: 100px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+    /* border-radius: 100px; */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+#background {
+    background-position:center center !important;
+    background-size:cover !important;
+    background-repeat: no-repeat !important;
+    backface-visibility: hidden;
+    animation: slide 10s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    height: 100vh;
+    margin-top: 0;
+    position: relative;
+    background-image: url("import_exprot/foodiesfeed.com_pizza-ready-for-baking.jpg");
+    /* border: red solid; */
+  }
+
+  @keyframes slide {
+    0%,100% {
+    background-image: linear-gradient(0deg, #000 0, transparent 50%), url("images/top-view-table-full-delicious-food-composition.jpg");
+    }
+
+    25% {
+      background-image: linear-gradient(0deg, #000 0, transparent 50%), url("images/brooke-lark-HlNcigvUi4Q-unsplash.jpg");
+
+    }
+
+    50% {
+      background-image: linear-gradient(0deg, #000 0, transparent 50%), url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+
+    }
+
+    75% {
+      background-image: linear-gradient(0deg, #000 0, transparent 50%), url("images/top-view-food-frame-with-copy-space.jpg");
+
+    }
+  }
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  svg {
+    height: 50px;
+  }
+
+  a{
+      text-decoration: none;
+      color: white;
+  }
+
+  #navbar > div {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    color: white;
+    /* border: red solid; */
+    align-items: center;
+    /* font-weight: 600; */
+    cursor: pointer;
+  }
+
+  #navbar > div > div {
+    height: 70%;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #navbar > div > div:hover {
+    -webkit-transition: ease-out 0.3s !important;
+    color: white;
+    transform: translateY(5px);
+    transition: ease-out 0.3s !important;
+    /* background-color: rgba(255,255,255,.3); */
+    /* color: rgba(0, 162, 255, 0.507); */
+    background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    /* opacity: .8 !important; */
+    /* line-height: 75px; */
+  }
+
+  #logo {
+    width: 361px;
+    /* background-color: red; */
+  }
