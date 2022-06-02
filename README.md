@@ -23,14 +23,10 @@ here is the link to checkout the site - [Food.Dot](https://transcendent-mousse-b
 - Random recipe functionality
 
 ## Screenshots
-<img src="images/Medura1.png" width="90%">
-<img src="images/Medura2.png" width="90%">
-<img src="images/Medura3.png" width="90%">
-<img src="images/Medura4.png" width="90%">
-<img src="images/Medura5.png" width="90%">
-<img src="images/Medura6.png" width="90%">
-<img src="images/Medura7.png" width="90%">
-<img src="images/Medura8.png" width="90%">
+<img src="images/FoodDot1.png" width="90%">
+<img src="images/FoodDot2.png" width="90%">
+<img src="images/FoodDot3.png" width="90%">
+<img src="images/FoodDot4.png" width="90%">
 
 ## Conclusions
 - I had so much fun building this website that I want to build some more. Even though I had to scrifice some of my free time to build it
